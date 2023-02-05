@@ -13,8 +13,8 @@ steps:
 - task: AzureResourceManagerTemplateDeployment@3
   inputs:
     deploymentScope: 'Resource Group'
-    azureResourceManagerConnection: 'PRODUCTION(ba4bfbc9-d6db-439a-8e0c-305e7f1a34ae)'
-    subscriptionId: 'ba4bfbc9-d6db-439a-8e0c-305e7f1a34ae'
+    azureResourceManagerConnection: 'XXXXXX'
+    subscriptionId: 'XXXXXX'
     action: 'Create Or Update Resource Group'
     resourceGroupName: 'BalaRG'
     location: 'East US 2'
