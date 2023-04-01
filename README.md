@@ -1,2 +1,3 @@
 # AzureVm
 AzureVm
+test
